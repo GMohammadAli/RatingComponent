@@ -1,17 +1,10 @@
-
 import React  from "react";
 import RatingSelect from "./RatingSelect";
-// import { useNavigate } from "react-router-dom";
 import Image from "../images/icon-star.svg";
 import { Button, Typography } from "@mui/material";
 
 function Form() {   
-    // const navigate = useNavigate();
 
-    // const routeChange = () => {
-    //     let path = `/submitted`;
-    //     navigate(path);
-    // };
   return (
     <div className="card-one">
       <div className="icon">
