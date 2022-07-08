@@ -32,8 +32,8 @@
 }
 
 
-/* Before Submitting */
-.card-one .icon {
+
+.card .icon {
   background-color: var(--Medium-Blue);
   width: 40px;
   height: 40px;
@@ -44,20 +44,20 @@
   border-radius: 50%;
 }
 
-.card-one .rating .error {
+.card .rating .error {
   color: #ff3333;
   font-size: 15px;
   text-align: center;
   margin-bottom: 8px;
 }
 
-.card-one .rating ul {
+.card .rating ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-.card-one .rating ul li {
+.card .rating ul li {
   background-color: var(--Medium-Blue);
   color: var(--Ligh-Grey);
   font-weight: bold;
@@ -70,17 +70,17 @@
   cursor: pointer;
   transition: 0.3s;
 }
-.card-one .rating ul li:hover:not(li.active) {
+.card .rating ul li:hover:not(li.active) {
   background-color: var(--Primary-Orange);
   color: white;
 }
 
-.card-one .rating ul li.active {
+.card .rating ul li.active {
   background-color: var(--Ligh-Grey);
   color: white;
 }
 
-.card-one .submit button {
+.card .submit button {
   width: 100%;
   margin-top: 30px;
   padding: 15px;
@@ -95,35 +95,9 @@
   color: white;
   transition: 0.3s;
 }
-.card-one .submit button:hover {
+.card .submit button:hover {
   background-color: white;
   color: var(--Primary-Orange);
-}
-
-/* After Submitting */
-.card-two {
-  text-align: center;
-}
-
-.card-two img {
-  margin: 20px 0;
-}
-
-.card-two .selected-rating {
-  background-color: var(--Medium-Blue);
-  margin: 0px auto 20px auto;
-  padding: 10px 15px;
-  border-radius: 30px;
-  font-size: 15px;
-  color: var(--Primary-Orange);
-}
-
-.attribution { 
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a { 
-  color: var(--Primary-Orange); 
 }
 
 .text p {
@@ -131,8 +105,4 @@
   margin: 20px 0;
   color: var(--Ligh-Grey);
   line-height: 1.5;
-}
-
-.hidden {
-  display: none;
 }
