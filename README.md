@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is developed using Material UI and hosted on Netlify on: https://spontaneous-cupcake-b2eed4.netlify.app.
 
 ## Available Scripts
 
