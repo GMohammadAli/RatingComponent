@@ -6,7 +6,7 @@ import { Button, Typography } from "@mui/material";
 function Form() {   
 
   return (
-    <div className="card-one">
+    <div className="card">
       <div className="icon">
         <img src={Image} alt="star" />
       </div>
